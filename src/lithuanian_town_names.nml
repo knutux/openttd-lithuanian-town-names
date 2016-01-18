@@ -17,7 +17,7 @@
 //    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 
 grf {
-    grfid: "GK\00\00";
+    grfid: "LTTN";
     name: string(STR_GRF_NAME);
     desc: string(STR_GRF_DESCRIPTION);
     url: string(STR_GRF_URL);
