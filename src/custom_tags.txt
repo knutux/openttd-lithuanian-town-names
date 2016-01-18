@@ -1,4 +1,4 @@
-VERSION     :0.2.1
+VERSION     :0.5.0
 GIT_URL     :https://github.com/knutux/openttd-lithuanian-town-names
 LICENSE     :GNU GENERAL PUBLIC LICENSE 3.0
 AUTHORS     :Andrius R.
