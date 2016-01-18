@@ -3,8 +3,8 @@ CHANGELOG OpenTTD Lithuanian Town Names
 ========================================================================
 ------------------------------------------------------------------------
 
-v0.0.1 (2016-01-18)
+v0.1.0 (2016-01-18)
 -------------------
 
-- Project initialization with existing Lithuanian city, town and village
-  names.
+- Project initialization
+- Existing Lithuanian city names added.

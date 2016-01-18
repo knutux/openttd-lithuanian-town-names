@@ -56,5 +56,7 @@ rm -R "${ROOT}/build/${BUILD}" "${ROOT}/parsetab.py"
 # Finish.
 echo "\n---------------------------Building finished----------------------------\n"
 echo "To install copy the NewGRF archive to the OpenTTD NewGRF directory:"
-echo "    \$ cp ${ROOT}/dist/${BUILD}.tar ~/.openttd/newgrf/\n"
+echo "    \$ cp ${ROOT}/dist/${BUILD}.tar ~/.openttd/newgrf/"
+echo " [OR] in Windows git bash environment:"
+echo "    \$ cp ${ROOT}/dist/${BUILD}.tar ~/Documents/OpenTTD/newgrf/"
 exit 0
