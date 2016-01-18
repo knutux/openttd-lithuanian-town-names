@@ -25,10 +25,8 @@ grf {
     min_compatible_version: 1;
 }
 
-// Estonian town names.
-town_names {
-    styles: string(STR_GAME_OPTIONS_TOWN_NAME);
-    {
+town_names(LT_CITIES) {
+	{
         // existing Lithuanian cities from https://lt.wikipedia.org/wiki/S%C4%85ra%C5%A1as:Lietuvos_miestai_pagal_gyventojus
         text("Vilnius", 54),
         text("Kaunas", 33),
@@ -125,14 +123,196 @@ town_names {
         text("Vabalninkas", 1),
         text("Baltoji Vokė", 1),
         text("Subačius", 1),
-        text("Dūkštas", 90),
-        text("Pandėlys", 90),
-        text("Užventis", 78),
-        text("Dusetos", 77),
-        text("Kavarskas", 66),
-        text("Smalininkai", 56),
-        text("Troškūnai", 47),
-        text("Panemunė", 29),
-        
-        }
+        text("Dūkštas", 1),
+        text("Pandėlys", 1),
+        text("Užventis", 1),
+        text("Dusetos", 1),
+        text("Kavarskas", 1),
+        text("Smalininkai", 1),
+        text("Troškūnai", 1),
+        text("Panemunė", 1),
+    }
+}
+
+// parts of generated names (based on common name definitions)
+town_names(LT_GEN_1_PREFIX) {
+	{
+        text("Aukštieji ", 10),
+        text("Žemieji ", 10),
+        text("Didieji ", 8),
+        text("Naujieji ", 8),
+        text("Žemaičių ", 6),
+        text("Senieji ", 5),
+        text("Aukštaičių ", 4),
+        text("Šiaurės ", 3),
+        text("Suvalkų ", 2),
+        text("Prūsų ", 1),
+        text("Jotvingių ", 1),
+        text("Rytiniai ", 1),
+        text("Pietų ", 1),
+        text("Baltieji ", 1),
+        text("Juodieji ", 1),
+        text("Raudonieji ", 1),
+        text("Laukų ", 1),
+    }
+}
+town_names(LT_GEN_1_SUFFIX) {
+	{
+        text("Trakai", 7),
+        text("Obeliai", 3),
+        text("Varniai", 3),
+        text("Viekšniai", 1),
+        text("Paneriai", 2),
+        text("Paežeriai", 1),
+        text("Pagėgiai", 2),
+        text("Troškūnai", 1),
+        text("Veisiejai", 1),
+        text("Daugai", 4),
+        text("Lazdijai", 2),
+        text("Šiauliai", 2),
+        text("Mažeikiai", 1),
+        text("Žiežmariai", 1),
+        text("Biržai", 4),
+
+        text("Šalčiai", 2),
+        text("Staniūnai", 1),
+        text("Naisiai", 2),
+        text("Ginkūnai", 1),
+        text("Butkeliai", 1),
+        text("Ringaudai", 1),
+        text("Valčiūnai", 1),
+        text("Vydmantai", 1),
+        text("Kalveliai", 1),
+        text("Juodšiliai", 1),
+        text("Avižieniai", 1),
+        text("Ramučiai", 1),
+        text("Vilainiai", 1),
+        text("Zujūnai", 2),
+        text("Vaidotai", 1),
+        text("Kūlupėnai", 1),
+        text("Mastaičiai", 1),
+        text("Padvariai", 1),
+        text("Grigaičiai", 1),
+        text("Traksėdžiai", 1),
+        text("Varkaliai", 1),
+        text("Noriūnai", 1),
+        text("Vijoliai", 1),
+        text("Juknaičiai", 1),
+        text("Rainiai", 3),
+        text("Mokolai", 2),
+        text("Miklusėnai", 1),
+        text("Galgiai", 3),
+        text("Drąsučiai", 1),
+        text("Macikai", 3),
+        text("Jungėnai", 1),
+        text("Vilkyčiai", 1),
+        text("Jotainiai", 1),
+        text("Degaičiai", 1),
+        text("Bubiai", 3),
+        text("Kalnėnai", 1),
+        text("Kairiai", 3),
+        text("Ryškėnai", 1),
+        text("Užusaliai", 1),
+        text("Giedručiai", 1),
+        text("Stasiūnai", 1),
+        text("Kutiškiai", 1),
+        text("Micaičiai", 1),
+        text("Vaivadai", 1),
+        text("Usėnai", 3),
+        text("Ėriškiai", 1),
+        text("Girėnai", 3),
+        text("Aukštelkai", 1),
+        text("Pašyšiai", 1),
+        text("Girionys", 1),
+        text("Skemai", 2),
+        text("Bajorai", 3),
+        text("Zavišonys", 1),
+        text("Grabupiai", 1),
+        text("Šilėnai", 3),
+        text("Turgeliai", 2),
+        text("Naisiai", 3),
+        text("Daukšiai", 2),
+        text("Veršiai", 2),
+        text("Juragiai", 1),
+        text("Mažonai", 2),
+    }
+}
+
+town_names(LT_GEN_2_PREFIX) {
+	{
+        text("Pa", 4),
+        text("Už", 3),
+        text("Pus", 2),
+        text("Iš", 2),
+        text("Prieš", 2),
+    }
+}
+town_names(LT_GEN_2_ROOT) {
+	{
+        text("keln", 1),
+        text("vilk", 1),
+        text("trak", 1),
+        text("rišk", 1),
+        text("lauk", 1),
+        text("jon", 1),
+        text("šyš", 1),
+        text("antan", 1),
+        text("agluon", 1),
+        text("viln", 1),
+        text("šil", 1),
+        text("stat", 1),
+        text("žyž", 1),
+        text("baln", 1),
+        text("mišk", 1),
+        text("gir", 1),
+        text("ežer", 1),
+        text("pelk", 1),
+    }
+}
+town_names(LT_GEN_2_SUFFIX) {
+	{
+        text("iai", 3),
+        text("eliai", 3),
+        text("iškiai", 3),
+        text("ėnai", 3),
+        text("iškės", 3),
+        text("ija", 3),
+        text("onys", 2),
+        text("upiai", 3),
+        text("ava", 3),
+        text("alis", 3),
+        text("ė", 1),
+        text("iukas", 3),
+        text("yčiai", 3),
+    }
+}
+
+town_names(LT_GEN_1) {
+	{
+        town_names(LT_GEN_1_PREFIX, 1),
+    }
+	{
+        town_names(LT_GEN_1_SUFFIX, 1)
+    }
+}
+
+town_names(LT_GEN_2) {
+	{
+        town_names(LT_GEN_2_PREFIX, 1),
+    }
+	{
+        town_names(LT_GEN_2_ROOT, 1),
+    }
+	{
+        town_names(LT_GEN_2_SUFFIX, 1)
+    }
+}
+
+town_names {
+    styles: string(STR_GAME_OPTIONS_TOWN_NAME);
+    {
+        town_names(LT_CITIES, 20),
+        town_names(LT_GEN_1, 2),
+        town_names(LT_GEN_2, 10)
+    }
 }
