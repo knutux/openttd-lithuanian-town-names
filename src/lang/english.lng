@@ -1,0 +1,6 @@
+##grflangid 0x01
+STR_GRF_NAME                    :Lithuanian Town Names {VERSION}
+STR_GRF_DESCRIPTION             :{}{ORANGE}Lithuanian Town Names{}{SILVER}This extension adds the possibility to use the names of real and generated Lithuanian town and city names.{}{}{BLACK}Author: {SILVER}{AUTHORS}{}{BLACK}License: {SILVER}{LICENSE}
+STR_GRF_URL                     :{GIT_URL}
+
+STR_GAME_OPTIONS_TOWN_NAME      :Lithuanian

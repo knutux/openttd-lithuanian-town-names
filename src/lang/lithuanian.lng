@@ -1,0 +1,6 @@
+##grflangid 0x2B
+STR_GRF_NAME                    :Lietuviški miestų pavadinimai {VERSION}
+STR_GRF_DESCRIPTION             :{}{ORANGE}Lietuviški miestų pavadinimai{}{SILVER}Galimybė naudoti tikrus ir generuotus lietuviškus miestų ir gyvenviečių pavadinimus.{}{}{BLACK}Autoriai: {SILVER}{AUTHORS}{}{BLACK}Licencija: {SILVER}{LICENSE}
+STR_GRF_URL                     :{GIT_URL}
+
+STR_GAME_OPTIONS_TOWN_NAME      :Lietuviški
