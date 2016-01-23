@@ -1,0 +1,6 @@
++##grflangid 0x3A
++STR_GRF_NAME                    :개선된 리투아니아식 도시 이름 {VERSION}
++STR_GRF_DESCRIPTION             :{}개선된 {ORANGE}리투아니아식 도시 이름{}{SILVER}이 NewGRF은 리투아니아에 존재하는 13,000여개의 마을이나 도시의 이름을 사용할 수 있게 해줍니다.{}{}{BLACK}제작: {SILVER}{AUTHORS}{}{BLACK}저작권: {SILVER}{LICENSE}
++STR_GRF_URL                     :{GIT_URL}
++
++STR_GAME_OPTIONS_TOWN_NAME      :리투아니아식 (개선)
